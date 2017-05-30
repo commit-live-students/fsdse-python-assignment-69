@@ -1,4 +1,4 @@
-# Write a Python program to convert the values of Centigrade degrees into Fahrenheit degrees. Centigrade values are stored into a NumPy array.
+# Write a Python program to convert the values of Fahrenheit degrees into Centigrade degrees. Fahrenheit values are stored into a NumPy array.
 
 Sample Output:
 
@@ -11,5 +11,5 @@ Values in  Centigrade degrees:
 
 **Notes**
 * Write a function which will accept one parameter array.
-* Convert all values to Fahrenheit.
-* Return Fahrenheit values array.
+* Convert all values to Centigrade.
+* Return Centigrade values array.
