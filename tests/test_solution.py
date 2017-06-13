@@ -9,8 +9,8 @@ class TestSolution(TestCase):
         res = solution(faces)
 
         self.assertNotEqual(None, res)
-        self.assertEqual(res[0], -17.777777777777779)
-        self.assertEqual(res[1], -11.111111111111111)
-        self.assertEqual(res[2], 7.3388888888888886)
-        self.assertEqual(res[3], 1.1111111111111107)
-        self.assertEqual(res[4], 37.727777777777774)
+        self.assertAlmostEqual(res[0], -17.777777777777779, places=3)
+        self.assertAlmostEqual(res[1], -11.111111111111111, places=3)
+        self.assertAlmostEqual(res[2], 7.3388888888888886, places=3)
+        self.assertAlmostEqual(res[3], 1.1111111111111107, places=3)
+        self.assertAlmostEqual(res[4], 37.727777777777774, places=3)
