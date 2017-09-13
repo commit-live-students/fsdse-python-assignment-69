@@ -3,6 +3,5 @@ import numpy as np
 
 
 def solution(array):
-    """
-    Enter your code here
-    """
+    array = (np.array(array) - 32)/1.8
+    return np.array(array)
